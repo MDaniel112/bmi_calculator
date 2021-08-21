@@ -11,5 +11,5 @@ function getInputValues() {
 
   var bmi = bmiCalculator(weight, height);
 
-  document.getElementById("bmiResult").innerHTML ="Your resulr: " + bmi;
+  document.getElementById("bmiResult").innerHTML ="Your result:   " + bmi;
 }
