@@ -10,6 +10,12 @@ function getInputValues() {
   var height = document.getElementById("height").value;
 
   var bmi = bmiCalculator(weight, height);
+  var weight_type;
 
-  document.getElementById("bmiResult").innerHTML ="Your result:   " + bmi;
+  if(bmi <= 18.5) weight_type = "Underweight";
+  if(bmi >= 18.5 && bmi < 25) weight_type = "Normal";
+  if(bmi >= 25 && bmi < 30) weight_type = "Overweight";
+  if(bmi >= 30) weight_type = "Obese";
+
+  document.getElementById("bmiResult").innerHTML ="Your result:   " + bmi + " " + weight_type;
 }
