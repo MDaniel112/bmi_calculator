@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>BMI Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section id="main">
+    <h1>BMI Calculator</h1>
+    <h2>Find out your BMI - Body Mass index</h2>
+    <div class="calc-div">
+      <form class="calculator" action="" method="">
+        <label for="weight">Your weight (kg)</label>
+        <input class="v-input" type="number" id="weight" name="weight" value="">
+        <br>
+        <label for="height">Your height (cm)</label>
+        <input class="v-input" type="number" id="height" name="height" value="">
+        <br>
+        <button type="button" name="button" onclick="getInputValues()">Calculate</button>
+      </form>
+      <h2 id="bmiResult">Your result: </h2>
+    </div>
+
+    <div class="val-div">
+        <p>18.5 or less = Underweight</p>
+        <p>18.5 - 24.9 = Normal Weight</p>
+        <p>24-29.9 = Overweight</p>
+        <p>30 or greater = Obesity</p>
+    </div>
+  </section>
+  <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

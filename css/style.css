@@ -1,0 +1,47 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: #a9fdd8;
+  background-image: url("../images/background.jpg");
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+label {
+  display: inline-block;
+  clear: left;
+  width: 200px;
+  text-align: center;
+}
+
+/* Main Section */
+#main {
+  padding: 3% 5%;
+  margin: 5% 20%;
+  background-color: #d7f8ff;
+  border-radius: 20px;
+  box-shadow: 5px 10px #888888;
+}
+
+/* Calculator */
+
+.calculator {
+  padding: 3% 7%;
+}
+
+.v-input {
+  display: inline-block;
+  width: 200px;
+  margin: 10px 20px;
+  padding: 10px 20px;
+}
+
+.calc-btn {
+
+}
